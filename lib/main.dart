@@ -9,7 +9,6 @@ import 'package:ecommerce/firebase_options.dart';
 import 'package:provider/provider.dart';
 import 'package:ecommerce/models/cart_model.dart';
 import 'package:device_preview_plus/device_preview_plus.dart';
-
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
